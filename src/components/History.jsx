@@ -7,7 +7,6 @@ const History = ({ history, moveTo, currentMove }) => {
         return (
           <li key={move}>
             <button
-              //STYLE PROP EXPECTS AN OBJECT HENCE WE CAN'T USE CSS DIRECTLY BUT CAN BE CSS PROPERTIES IN CAME-CASE.
               style={{
                 fontWeight: move === currentMove ? 'bold' : 'normal',
               }}
